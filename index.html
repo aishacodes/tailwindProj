@@ -4,11 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>tailwindProj</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="bg-gray-700">
+    <div class="max-w-sm w-full flex flex-col lg:max-w-3xl lg:flex lg:flex-row mx-auto my-20 bg-white rounded">
+        <div class="bg-white rounded-b flex flex-col justify-between order-2 lg:order-1 px-10 lg:px-20">
+            <p class="text-4xl font-light lg:pt-10 pt-6">Become Member</p>
+            <span class="text-gray-500 text-sm mt-6">Use social networks to join us instantly.</span>
+            <span class="text-gray-500 text-sm ">You wont spend anytime to confirm those boring emails</span>
+
+            <form action="" class="flex flex-col mt-8 flex-grow-0">
+                <button class="flex justify-between bg-white border rounded py-4 pl-4 items-center shadow-sm hover:outline-none">
+                    <img src="media/googleplus.svg" class="w-5 h-5" alt="">
+                    <span class="text-xs font-bold text-gray-600 flex-grow-1">SIGN UP WITH GOOGLE+</span>
+                    <span></span>
+                </button>
+                <button class="flex justify-between bg-white border rounded py-4 pl-4 items-center mt-6 shadow-sm">
+                    <img src="media/facebook.svg" class="w-5 h-5" alt="">
+                    <span class="text-xs font-bold text-gray-600 flex-grow-1">SIGN UP WITH FACEBOOK</span>
+                    <span></span>
+                </button>
+                <button class="flex justify-between bg-white border mt-6 rounded py-4 pl-4 items-center shadow-sm">
+                    <img src="media/twitter.svg" class="w-5 h-5" alt="">
+                    <span class="text-xs font-bold text-gray-600 flex-grow-1">SIGN UP WITH TWITTER</span>
+                    <span></span>
+                </button>
+            </form>
+            <div class="border-t flex flex-col lg:flex-row lg:justify-between mt-12 py-8">
+                <span class="text-sm">You can still sign up with email</span>
+                <a href="" class="text-xs pt-4 lg:pt-0 font-bold text-gray-600">SIGN UP WITH EMAIL</a>
+            </div>
+        </div>
+        <div class="h-48 lg:h-auto lg:w-64 bg-cover order-1 lg:order-2" style="background-image: url('media/side.jpg')" title="Woman holding a mug"></div>
+    </div>
+
 
 </body>
 
